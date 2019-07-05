@@ -1,0 +1,20 @@
+ErrorDocument 404 /php/404Handler.php
+ErrorDocument 403 /php/error.php
+ErrorDocument 405 /php/error.php
+ErrorDocument 408 /php/error.php
+ErrorDocument 500 /php/error.php 
+ErrorDocument 502 /php/error.php 
+ErrorDocument 504 /php/error.php 
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^www\.ionutdanila\.com$ [NC]
+RewriteRule .? http://www.ionutdanila.com%{REQUEST_URI} [R=301,L]
+
+Options -Indexes
+
+AddType text/plain .txt
+AddType text/x-vcard .vcf
+AddType application/octet-stream .bin .exe 
+
+php_value auto_append_file none
+php_value auto_prepend_file none

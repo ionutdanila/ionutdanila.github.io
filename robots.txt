@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /php
+Disallow: /aspnet_client
+Disallow: /ContactMe
+Disallow: /PSD
+Disallow: /work
+Allow: /
