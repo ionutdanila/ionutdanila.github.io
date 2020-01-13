@@ -381,7 +381,7 @@ div.top {
 
 .about h3 {
     margin-top: 5px;
-    font-size: 20px;
+    font-size: 18px;
     color: #FFF;
     line-height: 30px;
     text-shadow: 0px -1px 5px #082453;
@@ -1049,7 +1049,7 @@ div.footer {
         }
 
         .about h3 {
-            font-size: 18px;
+            font-size: 16px;
             line-height: 14px;
             word-spacing: 1px;
         }
@@ -1174,9 +1174,9 @@ div.footer {
         }
 
         .about h3 {
-            font-size: 15px;
+            font-size: 14px;
             line-height: 14px;
-            word-spacing: 4px;
+            word-spacing: 2px;
         }
 
         .about .photo-inner {
@@ -1317,7 +1317,7 @@ div.footer {
             line-height: 14px;
             text-align: center;
             font-size: 17px;
-            word-spacing: -2px;
+            word-spacing: 0px;
         }
 
         .about p {
