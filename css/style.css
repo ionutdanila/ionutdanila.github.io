@@ -594,12 +594,10 @@ div.top {
         }
 
 .timeline li .timelineUnit .timelineDate {
-    line-height: 20px;
     color: #0C3272;
     font-size: 14px;
     margin-left: 10px;
     font-weight: normal;
-    padding: 2px 6px;
     float: right;
 }
 
@@ -972,6 +970,13 @@ work {
 .gmap_marker div {
     margin-top: 4px;
 }
+
+.workProjects h3 .timelineDate {
+    font-size: 12px !important;
+    color: #999 !important;
+    padding: 2px 0;
+}
+
 /*-------------------------------------------------------*/
 /* Footer */
 /*-------------------------------------------------------*/
@@ -1030,6 +1035,10 @@ div.footer {
 
 /* Tablet Portrait size to standard 960 (devices and browsers) */
 @media only screen and (min-width: 768px) and (max-width: 959px) {
+    .workProjects h3 .timelineDate {
+        display: none;
+    }
+    
     #container {
         width: 750px;
     }
@@ -1121,6 +1130,10 @@ div.footer {
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
+    .workProjects h3 .timelineDate {
+        display: none;
+    }
+    
     #container {
         width: 470px;
     }
@@ -1253,6 +1266,9 @@ div.footer {
 }
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {
+    .workProjects h3 .timelineDate {
+        display: none;
+    }
 
     #container {
         width: 300px;
