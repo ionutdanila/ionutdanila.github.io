@@ -16,7 +16,7 @@
 	  $logo.fadeOut('slow');
 	});	
 
-	$('.copyright-year').text(new Date().getFullYear());
+	$('.copyright').text('© 2011 - ' + new Date().getFullYear() + ' IONUȚ DĂNILĂ');
 	
 	/* ---------------------------------------------------------------------- */
 	/*	Menu
