@@ -15,6 +15,8 @@
 	$('.tab-profile').click(function() {
 	  $logo.fadeOut('slow');
 	});	
+
+	$('.copyright-year').text(new Date().getFullYear());
 	
 	/* ---------------------------------------------------------------------- */
 	/*	Menu
