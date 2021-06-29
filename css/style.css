@@ -976,8 +976,7 @@ work {
 /* Footer */
 /*-------------------------------------------------------*/
 div.footer {
-    margin-top: 20px;
-    height: 20px;
+    margin: 20px 0;
 }
 
     div.footer .copyright {
