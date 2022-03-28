@@ -166,49 +166,42 @@ div.top {
     float: left;
     width: 30px;
     height: 30px;
-    background: #222 url('../images/icon_facebook.png') no-repeat 5px 5px;
+    background: #222 url('../images/icon_fk.png') no-repeat 5px 5px;
 }
 
 .social-twitter {
     float: left;
     width: 30px;
     height: 30px;
-    background: #222 url('../images/icon_twitter.png') no-repeat 5px 5px;
-}
-
-.social-googleplus {
-    float: left;
-    width: 30px;
-    height: 30px;
-    background: #222 url('../images/icon_googleplus.png') no-repeat 7px 8px;
+    background: #222 url('../images/icon_tr.png') no-repeat 5px 5px;
 }
 
 .social-github {
     float: left;
     width: 30px;
     height: 30px;
-    background: #222 url('../images/icon_github.png') no-repeat 7px 8px;
+    background: #222 url('../images/icon_gb.png') no-repeat 7px 8px;
 }
 
 .social-skype {
     float: left;
     width: 30px;
     height: 30px;
-    background: #222 url('../images/icon_skype.png') no-repeat 3px 3px;
+    background: #222 url('../images/icon_se.png') no-repeat 3px 3px;
 }
 
 .social-linkedin {
     float: left;
     width: 30px;
     height: 30px;
-    background: #222 url('../images/icon_linkedin.png') no-repeat 5px 5px;
+    background: #222 url('../images/icon_ln.png') no-repeat 5px 5px;
 }
 
 .social-stackoverflow {
     float: left;
     width: 30px;
     height: 30px;
-    background: #222 url('../images/icon_stackoverflow.png') no-repeat 5px 5px;
+    background: #222 url('../images/icon_sw.png') no-repeat 5px 5px;
 }
 
 .notext {
