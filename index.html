@@ -1,7 +1,8 @@
-﻿<!DOCTYPE html>
-<html prefix="og:http://ogp.me/ns#" lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="Author" content="Ionuț Dănilă" />
     <meta name="Keywords" content="ionut, danila, mobile, web, portfolio, dănilă, ionuț, developer, engineer, mobile, .net, windows, iasi, universal, winrt, uwp, typescript, docker" />
     <meta name="Description" content="Ionuț Dănilă's Personal Portfolio: architecting, designing, developing, and deploying Web and Mobile Applications" />
@@ -10,7 +11,6 @@
     <meta name="Robots" content="INDEX,FOLLOW" />
     <meta name="wot-verification" content="0d97bbbe1554cfbfb53d" />
     <meta name="msvalidate.01" content="D88C4604BC4AD951BE50EAA4C890B717" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta property="og:title" content="Ionuț Dănilă: Senior Software Engineer" />
     <meta property="og:type" content="public_figure" />
     <meta property="og:url" content="https://www.ionutdanila.com/" />
@@ -24,602 +24,664 @@
     <link rel="icon" href="/logo" type="image/ico" />
 
     <link rel="author" href="https://www.linkedin.com/in/ionutdanila" />
-    <link rel="stylesheet" href="https://code.jquery.com/ui/1.11.3/themes/smoothness/jquery-ui.css">
-    <link rel="stylesheet" type="text/css" href="css/reset.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/style.min.css" />
-    
+
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+
     <script type='application/ld+json'>
-{
-  "@context": "http://www.schema.org",
-  "@type": "person",
-  "givenName": "Ionuț",
-  "familyName": " Dănilă",
-  "name": "Ionuț Dănilă",
-  "alternateName": "Ionut Danila",
-  "description": "Senior Software Engineer",
-  "gender": "Male",
-  "url": "https://www.ionutdanila.com",
-  "sameAs": [
-     "https://www.linkedin.com/in/ionutdanila",
-     "https://stackoverflow.com/story/ionutdanila",
-     "https://twitter.com/#!/ionutdanila",
-     "https://github.com/ionutdanila",
-     "https://www.facebook.com/ionut.danila"
-  ],
-  "image": "/logo",
-  "address": {
-     "@type": "PostalAddress",
-     "addressLocality": "Iași",
-     "addressCountry": "Romania"
-  },
-  "email": "&#104;&#101;&#108;&#108;&#111;&#64;&#105;&#111;&#110;&#117;&#116;&#100;&#97;&#110;&#105;&#108;&#97;&#46;&#99;&#111;&#109;",
-  "birthDate": "1990-05-20",
-  "alumniOf": {
-  	"@type": "EducationalOrganization",
-    "name": "Faculty of Computer Science Iași, UAIC (FII)",
-    "url": "https://www.info.uaic.ro/"
-  },
-  "worksFor": {
-  	"@type": "Organization",
-    "name": "Bolt",
-    "url": "https://bolt.eu/",
-  },
-  "jobTitle": {
-  	"@type": "DefinedTerm",
-  	"inDefinedTermSet": "https://www.patkua.com/blog/the-definition-of-a-tech-lead/",
-  	"termCode": "TL",
-  	"name": "Technical Lead",
-  	"url": "https://en.wikipedia.org/wiki/Lead_programmer"
-  },
-  "birthPlace": "Bucharest",
-  "nationality": "Romanian",
-  "telephone": "+40729906065"
-}
-</script>
-
+        {
+          "@context": "http://www.schema.org",
+          "@type": "person",
+          "givenName": "Ionuț",
+          "familyName": " Dănilă",
+          "name": "Ionuț Dănilă",
+          "alternateName": "Ionut Danila",
+          "description": "Senior Software Engineer",
+          "gender": "Male",
+          "url": "https://www.ionutdanila.com",
+          "sameAs": [
+             "https://www.linkedin.com/in/ionutdanila",
+             "https://stackoverflow.com/story/ionutdanila",
+             "https://twitter.com/#!/ionutdanila",
+             "https://github.com/ionutdanila",
+             "https://www.facebook.com/ionut.danila"
+          ],
+          "image": "/logo",
+          "address": {
+             "@type": "PostalAddress",
+             "addressLocality": "Iași",
+             "addressCountry": "Romania"
+          },
+          "email": "&#104;&#101;&#108;&#108;&#111;&#64;&#105;&#111;&#110;&#117;&#116;&#100;&#97;&#110;&#105;&#108;&#97;&#46;&#99;&#111;&#109;",
+          "birthDate": "1990-05-20",
+          "alumniOf": {
+              "@type": "EducationalOrganization",
+            "name": "Faculty of Computer Science Iași, UAIC (FII)",
+            "url": "https://www.info.uaic.ro/"
+          },
+          "worksFor": {
+              "@type": "Organization",
+            "name": "Bolt",
+            "url": "https://bolt.eu/",
+          },
+          "jobTitle": {
+              "@type": "DefinedTerm",
+              "inDefinedTermSet": "https://www.patkua.com/blog/the-definition-of-a-tech-lead/",
+              "termCode": "TL",
+              "name": "Technical Lead",
+              "url": "https://en.wikipedia.org/wiki/Lead_programmer"
+          },
+          "birthPlace": "Bucharest",
+          "nationality": "Romanian",
+          "telephone": "+40729906065"
+        }
+    </script>
 </head>
+
 <body>
-
-    <!-- Container -->
-    <div id="container">
-
-        <!-- Top -->
-        <div class="top">
-            <!-- Logo -->
-            <div id="logo">
-                <h2 style="text-transform:uppercase;">
-                    <firstName>Ionuț</firstName> <lastName>Dănilă</lastName>
-                </h2>
-                <h4 style="text-transform:uppercase;">Senior Software Engineer</h4>
+<!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Ionuț Dănilă</a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class="uil uil-estate nav__icon"></i> Home
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#resume" class="nav__link">
+                            <i class="uil uil-user nav__icon"></i> Résumé
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class="uil uil-file-alt nav__icon"></i> Skills
+                        </a>
+                    </li>
+                    <!--<li class="nav__item">
+                        <a href="#portfolio" class="nav__link">
+                            <i class="uil uil-scenery nav__icon"></i> Portfolio
+                        </a>
+                    </li>-->
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class="uil uil-estate nav__icon"></i> Contact
+                        </a>
+                    </li>
+                </ul>
+                <i class="uil uil-times nav__close" id="nav-close"></i>
             </div>
-            <!-- /Logo -->
-            <!-- Social Icons -->
-            <ul class="socialicons">
-                <li><a class="social-text">SOCIAL CONNECT</a></li>
-                <li><a href="https://www.linkedin.com/in/ionutdanila" class="social-linkedin notext" target="_blank" title="View my LinkedIn Profile">www.linkedin.com/in/ionutdanila</a></li>
-                <li><a href="https://stackoverflow.com/story/ionutdanila" class="social-stackoverflow notext" target="_blank" title="View my Stack Overflow Story">www.stackoverflow.com/story/ionutdanila</a></li>
-                <li><a href="https://twitter.com/#!/ionutdanila" class="social-twitter notext" target="_blank" title="@Connect with me using Twitter">twitter.com/#!/ionutdanila</a></li>
-                <li><a href="https://github.com/ionutdanila" class="social-github notext" rel="publisher" target="_blank" title="Visit my GitHub Profile">github.com/ionutdanila</a></li>
-                <li><a href="skype:ionut.danila.skype?call" class="social-skype notext" title="Call me on Skype">skype:ionut.danila.skype?call</a></li>
-            </ul>
-        </div>
-        <!-- /Top -->
-        <!-- /Top -->
-        <!-- Content -->
-        <div id="content">
 
-            <!-- Profile -->
-            <div id="profile">
-                <!-- About section -->
-                <div class="about">
-                    <div class="photo-inner">
-                        <div class="photo-frame">
-                            <a href="https://www.linkedin.com/in/ionutdanila" target="_blank" title="View my LinkedIn Profile">
-                                <img src="/logo" class="lazyload" alt="Profile Photo" />
+            <div class="nav__btns">
+                <!--Theme change button-->
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="uil uil-apps"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+<!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__content grid">
+                    <div class="home__social">
+                        <a href="https://www.linkedin.com/in/ionutdanila" target="_blank" class="home__social-icon">
+                            <i class="uil uil-linkedin-alt"></i>
+                        </a>
+                        <a href="https://stackoverflow.com/users/1344308/ionu%c8%9b-d%c4%83nil%c4%83" target="_blank" class="home__social-icon">
+                            <i class="fa fa-stack-overflow" ></i>
+                        </a>
+                        <a href="https://github.com/ionutdanila" target="_blank" class="home__social-icon">
+                            <i class="uil uil-github-alt"></i>
+                        </a>
+                    </div>
+
+                    <div class="home__img">
+                        <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <mask id="mask0" mask-type="alpha">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547
+            130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775
+            97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666
+            0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                            </mask>
+                            <g mask="url(#mask0)">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346
+            165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403
+            129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028
+            -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                <image class="home__blob-img" x="16" y="16" xlink:href="assets/img/perfil.png"/>
+                            </g>
+                        </svg>
+
+                    </div>
+                    <div class="home__data">
+                        <h1 class="home__title">Hi, I'm Ionuț,</h1>
+                        <h3 class="home__subtitle">Senior Software Engineer</h3>
+                        <p class="home__description">Architecting, designing, developing, and deploying web and mobile applications</p>
+                        <a href="#contact" class="button button--flex">
+                            Contact me <i class="uil uil-message button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="home_scroll">
+                    <a href="#resume" class="home__scroll-button button--flex">
+                        <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                        <span class="home__scroll-name">Scroll down</span>
+                        <i class="uil uil-arrow-down homw__scroll-arrow"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== Résumé ====================-->
+        <section class="qualification section" id="resume">
+            <h2 class="section__title">Résumé</h2>
+            <div class="section__subtitle"></div>
+
+            <div class="qualification__container container">
+                <div class="qualification__tabs">
+                    <div class="qualification__button button--flex" data-target="#education">
+                        <i class="uil uil-graduation-cap qualification__icon"></i>
+                        Education
+                    </div>
+
+                    <div class="qualification__button button--flex qualification__active" data-target="#work">
+                        <i class="uil uil-briefcase-alt qualification__icon"></i>
+                        Employment
+                    </div>
+                </div>
+
+                <div class="qualification__sections">
+                    <!--===============================EDUCATION===========================-->
+                    <div class="qualification__content" data-content id="education">
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">Master of Software System Engineering Degree</h3>
+                                <span class="qualification__subtitle">Faculty of Computer Science Iași, UAIC (FII)</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2012 - 2014
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+
+                        <div class="qualification__data">
+                            <div></div>
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+
+                            <div>
+                                <h3 class="qualification__title">Bachelor of Science (BSc)</h3>
+                                <span class="qualification__subtitle">Faculty of Computer Science Iași, UAIC (FII)</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2009 - 2012
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">High School Diploma</h3>
+                                <span class="qualification__subtitle">National College ”Cuza-Vodă” Huși</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2005 - 2009
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--===============================EMPLOYMENT===========================-->
+                    <div class="qualification__content qualification__active" data-content id="work">
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">Senior Software Engineer</h3>
+                                <span class="qualification__subtitle">
+                                    <a href="https://bolt.eu/" target="_blank">Bolt</a>
+                                </span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    July, 2021 - Present
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+
+                        <div class="qualification__data">
+                            <div></div>
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+
+                            <div>
+                                <h3 class="qualification__title">Senior Software Engineer</h3>
+                                <span class="qualification__subtitle">
+                                    <a href="https://strongbytes.ai/" target="_blank">Strongbytes</a>
+                                </span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    October, 2020 - July, 2021
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">Technical Lead</h3>
+                                <span class="qualification__subtitle">
+                                    <a href="https://www.ness.com/romania-en/" target="_blank">Ness Digital Engineering</a>
+                                </span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    January, 2019 - October, 2020
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+
+                        <div class="qualification__data">
+                            <div></div>
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+
+                            <div>
+                                <h3 class="qualification__title">Windows Platform Lead</h3>
+                                <span class="qualification__subtitle">
+                                    <a href="http://www.mios.com/" target="_blank">MiOS, Ltd.</a>
+                                </span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    March, 2015 - January, 2019
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">Collaborator Teacher Assistant</h3>
+                                <span class="qualification__subtitle">
+                                    <a href="https://www.info.uaic.ro/" target="_blank">Faculty of Computer Science Iași, UAIC (FII)</a>
+                                </span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    February, 2015 - July, 2018
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+
+                        <div class="qualification__data">
+                            <div></div>
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+
+                            <div>
+                                <h3 class="qualification__title">.NET Developer</h3>
+                                <span class="qualification__subtitle">
+                                    <a href="http://www.heg.com/" target="_blank">Host Europe Group</a>
+                                </span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    July, 2012 - March, 2015
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">Intern</h3>
+                                <span class="qualification__subtitle">
+                                    <a href="http://theredpoint.ro" target="_blank">Red Point Software Solutions Romania</a>
+                                </span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    June, 2011 - September, 2011
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== SKILLS ====================-->
+        <section class="skills section" id="skills">
+            <h2 class="section__title">Skills</h2>
+            <span class="section__subtitle"></span>
+
+            <div class="skills__container container grid">
+                <div>
+                    <!--====================== PROGRAMMING LANGUAGES =============================-->
+                    <div class="skills__content skills__open">
+                        <div class="skills__header">
+                            <i class="uil uil-brackets-curly skills__icon"></i>
+
+                            <div>
+                                <h1 class="skills__title">Programming Languages</h1>
+                                <span class="skills__subtitle"></span>
+                            </div>
+
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">C#</h3>
+                                    <div class="skills__number">90%</div>
+                                </div>
+                                <div class="skills__bar">
+                                    <div class="skills__percentage skills__csharp"></div>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">XAML</h3>
+                                    <div class="skills__number">80%</div>
+                                </div>
+                                <div class="skills__bar">
+                                    <div class="skills__percentage skills__xaml"></div>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">JavaScript</h3>
+                                    <div class="skills__number">60%</div>
+                                </div>
+                                <div class="skills__bar">
+                                    <div class="skills__percentage skills__javascript"></div>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">TypeScript</h3>
+                                    <div class="skills__number">70%</div>
+                                </div>
+                                <div class="skills__bar">
+                                    <div class="skills__percentage skills__typescript"></div>
+                                </div>
+                            </div>
+
+                            
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">C++, C++/CLI</h3>
+                                    <div class="skills__number">60%</div>
+                                </div>
+                                <div class="skills__bar">
+                                    <div class="skills__percentage skills__cplusplus"></div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!--====================== FRAMEWORKS =============================-->
+                    <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <i class="uil uil-brackets-curly skills__icon"></i>
+
+                            <div>
+                                <h1 class="skills__title">Frameworks</h1>
+                                <span class="skills__subtitle"></span>
+                            </div>
+
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">.NET Core</h3>
+                                    <div class="skills__number">80%</div>
+                                </div>
+                                <div class="skills__bar">
+                                    <div class="skills__percentage skills__net_core"></div>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">.NET Framework</h3>
+                                    <div class="skills__number">80%</div>
+                                </div>
+                                <div class="skills__bar">
+                                    <div class="skills__percentage skills__net_framework"></div>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Universal Windoes Platform (UWP)</h3>
+                                    <div class="skills__number">70%</div>
+                                </div>
+                                <div class="skills__bar">
+                                    <div class="skills__percentage skills__uwp"></div>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">ASP.NET Core</h3>
+                                    <div class="skills__number">60%</div>
+                                </div>
+                                <div class="skills__bar">
+                                    <div class="skills__percentage skills__asp_net_core"></div>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Entity Framework Core</h3>
+                                    <div class="skills__number">70%</div>
+                                </div>
+                                <div class="skills__bar">
+                                    <div class="skills__percentage skills__ef_core"></div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!--==================== PORTFOLIO ====================-->
+        <!--<section class="portfolio section" id="portfolio">
+            <h2 class="section__title">Portfolio</h2>
+            <span class="section__subtitle">Most Recent Work</span>
+
+            <div class="portfolio__container container swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/portfolio1.jpg" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Modern Website</h3>
+                            <p class="portfolio__description">
+                                This is test description(1) right now.
+                            </p>
+                            <a href="#" class="button button--flex button--small portfolio__button">
+                                Demo
+                                <i class="uil uil-arrow-right button__icon"></i>
                             </a>
                         </div>
                     </div>
-                    <h1 style="text-transform:uppercase;">Ionuț Dănilă</h1>
-                    <h3 style="text-transform:uppercase;">Senior Software Engineer</h3>
-                </div>
-                <!-- /About section -->
-                <!-- Personal info section -->
-                <ul class="personal-info">
-                    <li><label>Date of Birth</label><span>May 20, 1990</span></li>
-                    <li>
-                        <label>Current City</label>
-                        <span>
-                            <locality>Iași</locality>, <country>Romania</country>
-                        </span>
-                    </li>
-                    <li><label>E-mail</label><span><a target="_top" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#104;&#101;&#108;&#108;&#111;&#64;&#105;&#111;&#110;&#117;&#116;&#100;&#97;&#110;&#105;&#108;&#97;&#46;&#99;&#111;&#109;" title="E-mail me">&#104;&#101;&#108;&#108;&#111;&#64;&#105;&#111;&#110;&#117;&#116;&#100;&#97;&#110;&#105;&#108;&#97;&#46;&#99;&#111;&#109;</a></span></li>
-                    <li><label>Phone</label><span><a href="tel:+40729906065" title="Call me">+40 729 906 065</a></span></li>
-                </ul>
-                <!-- /Personal info section -->
-            </div>
-            <!-- /Profile -->
-            <!-- Menu -->
-            <div class="menu">
-                <ul class="tabs">
-                    <li><a href="#profile" class="tab-profile menu-tab">Profile</a></li>
-                    <li><a href="#resume" class="tab-resume menu-tab">Résumé</a></li>
-                    <li><a href="#portfolio" class="tab-portfolio menu-tab">Portfolio</a></li>
-                </ul>
-            </div>
-            <!-- /Menu -->
-            <!-- Resume -->
-            <div id="resume" style="display:none">
-                <div class="timeline-section">
-                    <!-- Timeline for Employment  -->
-                    <h3 class="main-heading"><span>Employment</span></h3>
-                    <ul class="timeline">
-                        <li>
-                            <div class="timelineUnit">
-                                <h4>Senior Software Engineer<span class="timelineDate">July 2021 - Present</span></h4>
-                                <h5><a href="https://bolt.eu/" target="_blank">Bolt</a></h5>
-                                <p>Architecting, designing, developing, and deploying backend systems.</p>
-                                <p>Languages: TypeScript</p>
-                                <p>Technologies: Node.js, MySQL, Redis, ElasticSearch, Docker</p>
-                                <p>Monitoring: Kibana, Grafana, Percona Monitoring and Management (PMM)</p>
-                                <p>Unit Testing: Jest</p>
-                                <p>CI/CD: Jenkins, AWS</p>
-                            </div>
-                        </li>
-						<li>
-                            <div class="timelineUnit">
-                                <h4>Senior Software Engineer<span class="timelineDate">October 2020 - July 2021</span></h4>
-                                <h5><a href="https://strongbytes.ai/" target="_blank">Strongbytes</a></h5>
-                                <p>Migrate on-premise enterprise solutions to cloud-based, modular, service-oriented, modern architectures with latest .NET technologies, deployed to Microsoft Azure Cloud. Migration strategy is customized for every project using Microsoft Cloud Adoption Framework for Azure.</p>
-                                <p>Languages: C#, JavaScript, TypeScript</p>
-                                <p>Technologies: ASP.NET 5, Entity Framework Core 5, AutoMapper, Autofac, FluentValidation, Hangfire, MediatR, Application Insights, IdentityServer, ReverseProxy, SendGrid, Swashbuckle (OpenAPI), React.js, Angular, SQL Server, Docker, Kubernetes</p>
-                                <p>Code quality and security: SonarQube, OWASP Dependency-Check</p>
-                                <p>Unit Testing: xUnit, FakeItEasy, FluentAssertions</p>
-                                <p>CI/CD: Azure DevOps Build & Release Pipelines</p>
-                                <ul class="projects">
-                                    <li><a href="https://marketplace.visualstudio.com/items?itemName=Strongbytes.boilerplate-code-generator" target="_blank" title="Get 'Boilerplate Code Generator'">Boilerplate Code Generator</a><span> on VisualStudio Marketplace</span></li>
-                                </ul>
-                            </div>
-                        </li>
-						<li>
-                            <div class="timelineUnit">
-                                <h4>Technical Lead<span class="timelineDate">January 2019 - October 2020</span></h4>
-                                <h5><a href="https://www.ness.com/romania-en/" target="_blank">Ness Digital Engineering</a></h5>
-                                <p>Leading the development of "Smart Transportation" web and mobile projects</p>
-                                
-                                <div class="workProjects">
-                                    <h3>ASP.NET Core microservices<span class="timelineDate">March 2020</span></h3>
-                                    <div>
-										<p>Cloud based microservices solution developed for calculating the best possible fare (daily, weekly or monthly) for customers traveling by bus, train or metro.</p>
-                                        <p>Languages: C#, JavaScript</p>
-								        <p>Technologies: ASP.NET Core 3.1, Entity Framework Core 3.1, PostgreSQL (Npgsq), RabbitMQ (EasyNetQ), AutoMapper, log4net, JSON.NET, Swagger (Swashbuckle), Hangfire, Redis (StackExchange.Redis), React.JS, Docker, Kubernetes </p>
-                                        <p>CI/CD: TeamCity, Jenkins, AWS</p>
-                                    </div>
-									
-                                    <h3>Xamarin Android<span class="timelineDate">January 2019</span></h3>
-                                    <div>
-                                        <p>Android applications used by public transit operators, capable of smart cards top-up/inspection, ticket purchasing using cash, EMV cards, barcodes or discount cards.</p>
-                                        <p>Languages: C#, AXML</p>
-								        <p>Technologies: .NET Framework, Xamarin SDK 10, Android SDK, ChipDNA SDK, Zebra EMDK, JSON.NET, SQLite, SQLCipher, NUnit, xUnit, NInject, ZXing.Net, SharpZipLib</p>
-                                        <p>CI/CD: TeamCity, Jenkins</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="timelineUnit">
-                                <h4>Windows Platform Lead<span class="timelineDate">March 2015 - January 2019</span></h4>
-                                <h5><a href="http://www.mios.com/" target="_blank">MiOS, Ltd.</a></h5>
-                                <p>Leading the development of a mobile application using Windows Platform 8.1 and 10 (Phone, Tablet, IoT, Xbox and PC), capable of remotely controlling and monitoring different smart devices inside a home automation system, such as door locks, lights, thermostats, appliances, voice assistants, or security cameras.</p>
-								<p>Languages: C++, C++/CLI, C#, XAML</p>
-								<p>Technologies: .NET Core / .NET 4.5, Windows / Windows Phone 8.1 SDK, Universal Windows Platform SDK, JSON.NET, SQLite, Reactive Extensions for .NET, Microsoft Application Insights, FFmpeg, HTML Agility Pack, Microsoft UWP Toolkit, Microsoft XAML Behaviors, ZXing.Net</p>
-                                <p>CI/CD: TeamCity</p>
-								<ul class="projects">
-                                    <li><a href="https://www.microsoft.com/en-us/p/veramobile/9nblggh1rl9l" target="_blank" title="Get 'VeraMobile™ for Windows'">VeraMobile™</a><span> on Microsoft Store </span></li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="timelineUnit">
-                                <h4>Collaborator Teacher Assistant<span class="timelineDate">February 2015 - July 2018</span></h4>
-                                <h5><a href="https://www.info.uaic.ro" target="_blank">Faculty of Computer Science Iași, UAIC (FII)</a></h5>
-                                <p>Teaching Web Technologies Laboratories: HTTP/HTTPS, DOM, HTML5, CSS3, LESS/SASS, JavaScript, PHP, MySQL, XML, NoSQL, AJAX, Web Services (SOAP/REST), Web Security, Web Development Tools.</p>
-								<ul class="projects">
-                                    <li><a href="https://profs.info.uaic.ro/~busaco/teach/courses/web/web-film.html" target="_blank" title="Visit 'Web Technologies' Course">Web Technologies Course</a><span> (Dr. <a href="https://profs.info.uaic.ro/~busaco/">Sabin-Corneliu Buraga)</a></span></li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="timelineUnit">
-                                <h4>.NET Developer<span class="timelineDate">July 2012 - March 2015</span></h4>
-                                <h5><a href="http://www.heg.com/" target="_blank">Host Europe Group</a></h5>
-                                <p>Developing web and mobile applications using Microsoft .NET 4.5+ Framework: Windows Phone 8+, ASP.NET Web Forms 4.5, ASP.NET MVC 5, Web API 2+, WCF 4.5, Entity Framework 6+, LINQ to SQL, ADO.NET, SQL Server 2008+, MySQL 5, IIS 7+, JSON.NET, NUnit 2, Bootstrap, HTML5, CSS3, Razor, JavaScript, jQuery 2+, AJAX, such as:</p>
-                                <div class="workProjects">
-                                    <h3>ASP.NET MVC + Web API</h3>
-                                    <div>
-                                        <ul class="projects">
-                                            <li><a href="http://wfss.webfusion.com/crmapi/" target="_blank" title="Open 'HEG CRM API'">Host Europe Group CRM API</a><span> (REST API)</span></li>
-                                            <li><a href="http://survey.heg.com/" target="_blank" title="Open 'Host Europe Group Survey System'">Host Europe Group Surveys System</a><span> (Customer Surveys)</span></li>
-                                            <li><a href="http://wfss.webfusion.com/mobilesocial" target="_blank" title="Open 'Mobile Social Media API'">Mobile Social Media API</a><span> (REST API)</span></li>
-                                        </ul>
-                                    </div>
-                                    <h3>ASP.NET Web Forms</h3>
-                                    <div>
-                                        <ul class="projects">
-                                            <li><a href="http://www.123-reg.co.uk/support/" target="_blank" title="Open '123-reg Support Site'">123-reg Support Site</a><span> (Customer Support Website)</span></li>
-                                            <li><a href="http://wfss.webfusion.com/" target="_blank" title="Open '123-reg - Webfusion - Knowhow CRM'">123-reg/Webfusion/Knowhow CRM</a><span> (Customer Management)</span></li>
-                                            <li><a href="http://dbadmin.meshdigital.net/" target="_blank" title="Open 'Domainbox Admin'">Domainbox Admin</a><span> (Domains &amp; Resellers Management)</span></li>
-                                            <li><a href="https://admin.domainbox.net/" target="_blank" title="Open 'Domainbox Portal'">Domainbox Portal</a><span> (Reseller&apos;s Management Portal)</span></li>
-                                            <li><a href="http://soporte.hosteurope.es/" target="_blank" title="Open 'Host Europe Iberia Support Site'">Host Europe Iberia Support</a><span> (Customer Support Website)</span></li>
-                                            <li><a href="http://support.knowhowwebsitebuilder.com/" target="_blank" title="Open 'Knowhow Support Site'">Knowhow Support Site</a><span> (Customer Support Website)</span></li>
-                                            <li><a href="http://www.myserverworld.net" target="_blank" title="Open 'My Server World'">My Server World</a><span> (Webfusion Control Panel)</span></li>
-                                            <li><a href="http://www.webfusion.co.uk/support/" target="_blank" title="Open 'Webfusion Support Site'">Webfusion Support Site</a><span> (Customer Support Website)</span></li>
-                                        </ul>
-                                    </div>
-                                    <h3>Windows Phone</h3>
-                                    <div>
-                                        <ul class="projects">
-                                            <li><a href="http://www.windowsphone.com/en-us/store/app/123-reg/d329fc07-d16f-4c53-9023-14cd6992d172" target="_blank" title="Open '123-reg for Windows Phone'">123-reg for Windows Phone</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="timelineUnit">
-                                <h4>Intern<span class="timelineDate">June - September 2011</span></h4>
-                                <h5><a href="http://theredpoint.ro" target="_blank">Red Point Software Solutions Romania</a></h5>
-                                <p>Being an Intern at Red Point, I worked as a User Interface Designer and ActionScript Developer, helping to develop projects such as:</p>
-                                <ul class="projects">
-                                    <li><a href="http://theredpoint.ro/produse-software-proprii/red-elearning-software" target="_blank" title="Open '3D eLearning' Wesite">3D eLearning</a><span> (3D learning environment)</span></li>
-                                    <li><a href="http://theredpoint.ro/produse-software-proprii/ums-university-management-system" target="_blank" title="Open 'University Management System' Wesite">UMS</a><span> (academic activities manager)</span></li>
-                                </ul>
-                            </div>
-                        </li>
-                        <div class="clear"></div>
-                    </ul>
-                    <!-- /Timeline for Employment  -->
-                    <!-- Timeline for Education  -->
-                    <h3 class="main-heading"><span>Education</span></h3>
-                    <ul class="timeline">
-                        <li>
-                            <div class="timelineUnit">
-                                <h4>Master of Software System Engineering Degree<span class="timelineDate">2012 - 2014</span></h4>
-                                <h5><a href="https://www.info.uaic.ro" target="_blank">Faculty of Computer Science Iași, UAIC (FII)</a></h5>
-                                <span style="display:none"><a href="https://www.info.uaic.ro" target="_blank">www.info.uaic.ro</a></span>
-                                <p>During my time as a masters student at Faculty of Computer Science, I had the opportunity of practicing my skills by participating in several national and international competitions, such as:</p>
-                                <ul class="projects">
-                                    <li><a href="http://mobilpro.lse.org.ro" target="_blank" title="Open 'MobilPRO 2014' Website">MobilPRO 2014</a><span> (Windows Phone Project)</span> - <result>Microsoft Special Prize Winner</result></li>
-                                    <li><a href="http://www.microsoft.com/romania/appchallenge" target="_blank" title="Open 'AppChallenge 2013' Wesite">AppChallenge Iași 2013</a><span> (Windows Phone Project)</span> - <result>1st Prize Winner</result></li>
-                                    <li><a href="https://www.youtube.com/watch?v=wygXE6hQ07c" target="_blank" title="Open 'ubiGuide Project' Presentation">ImagineCup 2013</a><span> (Windows Phone Challenge)</span> - <result>Semifinal Qualifier</result></li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="timelineUnit">
-                                <h4>Bachelor's Degree<span class="timelineDate">2009 - 2012</span></h4>
-                                <h5><a href="https://www.info.uaic.ro" target="_blank">Faculty of Computer Science Iași, UAIC (FII)</a></h5>
-                                <p>Being a student of the Faculty of Computer Science, in addition to lectures and laboratories, I had the opportunity of working with teachers and students in several extracurricular projects, such as:</p>
-                                <ul class="projects">
-                                    <li><a href="http://consilr.info.uaic.ro/consilr2011-12" target="_blank" title="Open 'ConsILR' Wesite">ConsILR 2012</a><span> (a presentation of Romanian linguistic processing tools)</span></li>
-                                    <li><a href="http://eurolan.info.uaic.ro/2011/" target="_blank" title="Open 'Eurolan' Wesite">Eurolan 2011</a><span> (a NLP Summer School)</span></li>
-                                    <li><a href="http://bringiton.info.uaic.ro/2010" target="_blank" title="Open 'Bring IT On' Wesite">Bring IT On 2010</a><span> (a presentation of Romanian IT environment)</span></li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="timelineUnit">
-                                <h4>High School Diploma<span class="timelineDate">2005 - 2009</span></h4>
-                                <h5><a href="http://lcvhusi.licee.edu.ro" target="_blank">National College ”Cuza-Vodă” Huși</a></h5>
-                                <p>Being a student of this high school, I learned the basis of programming, I discovered my passion for design and I worked with teachers and students in extracurricular projects, such as:</p>
-                                <ul class="projects">
-                                    <li><a href="http://ecolcvhusi.licee.edu.ro/" target="_blank" title="Open 'Eco - School' Wesite">Eco - School</a><span> (a national project for a cleaner environment)</span></li>
-                                    <li><a href="http://sites.google.com/site/socratescomeniusprogram/" target="_blank" title="Open 'Good Day, Europe!' Wesite">Good Day, Europe!</a><span> (an international project for high school students)</span></li>
-                                </ul>
-                            </div>
-                        </li>
-                        <div class="clear"></div>
-                    </ul>
-                </div>
-                <div class="skills-section">
-                    <!-- Skills -->
-                    <h3 class="main-heading"><span>Coding Skills</span></h3>
-                    <ul class="skills">
-						<li>
-                            <h4>.NET Core</h4>
-                            <span class="rat6"></span>
-                        </li>
-                        <li>
-                            <h4>.NET Framework</h4>
-                            <span class="rat6"></span>
-                        </li>
-						<li>
-                            <h4>UWP</h4>
-                            <span class="rat6"></span>
-                        </li>
-                        <li>
-                            <h4>ASP.NET Core</h4>
-                            <span class="rat6"></span>
-                        </li>
-						<li>
-                            <h4 style="font-size: 12px;">Entity Framework Core</h4>
-                            <span class="rat6"></span>
-                        </li>
-						<li>
-                            <h4>LINQ to SQL</h4>
-                            <span class="rat6"></span>
-                        </li>
-						<li>
-                            <h4 style="font-size: 12px;">Reactive Programming</h4>
-                            <span class="rat4"></span>
-                        </li>
-                        <li>
-                            <h4>WCF</h4>
-                            <span class="rat4"></span>
-                        </li>
-                        <li>
-                            <h4>WPF</h4>
-                            <span class="rat5"></span>
-                        </li>
-                        <li>
-                            <h4>ADO.NET</h4>
-                            <span class="rat6"></span>
-                        </li>
-                        <li>
-                            <h4>SQL</h4>
-                            <span class="rat6"></span>
-                        </li>
-                        <li>
-                            <h4>HTML5 + CSS3</h4>
-                            <span class="rat6"></span>
-                        </li>
-                        <li>
-                            <h4>AJAX</h4>
-                            <span class="rat5"></span>
-                        </li>
-                        <li>
-                            <h4>JavaScript</h4>
-                            <span class="rat5"></span>
-                        </li>
-                    </ul>
-					
-					<h3 class="main-heading"><span>3<sup>rd</sup> Party Libraries</span></h3>
-                    <ul class="skills">
-                        <li>
-                            <h4>Json.NET</h4>
-                            <span class="rat6"></span>
-                        </li>
-						<li>
-                            <h4>SQLite</h4>
-                            <span class="rat6"></span>
-                        </li>
-						<li>
-                            <h4>Redis</h4>
-                            <span class="rat4"></span>
-                        </li>
-						<li>
-                            <h4>Swagger</h4>
-                            <span class="rat4"></span>
-                        </li>
-						<li>
-                            <h4>Elastic Search</h4>
-                            <span class="rat4"></span>
-                        </li>
-                        <li>
-                            <h4>AutoMapper</h4>
-                            <span class="rat4"></span>
-                        </li>
-                        <li>
-                            <h4>Autofac</h4>
-                            <span class="rat4"></span>
-                        </li>
-                        <li>
-                            <h4>FluentValidation</h4>
-                            <span class="rat4"></span>
-                        </li>
-                        <li>
-                            <h4>Hangfire</h4>
-                            <span class="rat4"></span>
-                        </li>
-                        <li>
-                            <h4>MediatR</h4>
-                            <span class="rat4"></span>
-                        </li>
-						<li>
-                            <h4>FFmpeg</h4>
-                            <span class="rat5"></span>
-                        </li>
-						<li>
-                            <h4>HTML Agility Pack</h4>
-                            <span class="rat5"></span>
-                        </li>
-						<li>
-                            <h4>UWP Toolkit</h4>
-                            <span class="rat5"></span>
-                        </li>
-						<li>
-                            <h4>XAML Behaviors</h4>
-                            <span class="rat5"></span>
-                        </li>
-						<li>
-                            <h4>NUnit</h4>
-                            <span class="rat5"></span>
-                        </li>
-                    </ul>
-					
-                    <h3 class="main-heading"><span>Tools</span></h3>
-                    <ul class="skills">
-                        <li>
-                            <h4>Azure DevOps</h4>
-                            <span class="rat6"></span>
-                        </li>
-                        <li>
-                            <h4>SQL Server</h4>
-                            <span class="rat6"></span>
-                        </li>
-                        <li>
-                            <h4>IIS</h4>
-                            <span class="rat6"></span>
-                        </li>
-                        <li>
-                            <h4>Visual Studio</h4>
-                            <span class="rat6"></span>
-                        </li>
-                        <li>
-                            <h4>Expression Blend</h4>
-                            <span class="rat6"></span>
-                        </li>
-                        <li>
-                            <h4>NuGet</h4>
-                            <span class="rat6"></span>
-                        </li>
-						<li>
-                            <h4>Docker</h4>
-                            <span class="rat5"></span>
-                        </li>
-                        <li>
-                            <h4>Fiddler</h4>
-                            <span class="rat5"></span>
-                        </li>
-                        <li>
-                            <h4>Hyper-V</h4>
-                            <span class="rat5"></span>
-                        </li>
-						<li>
-                            <h4>TeamCity</h4>
-                            <span class="rat5"></span>
-                        </li>
-                        <li>
-                            <h4>Adobe Photoshop</h4>
-                            <span class="rat5"></span>
-                        </li>
-                        <li>
-                            <h4>Adobe Illustrator</h4>
-                            <span class="rat3"></span>
-                        </li>
-                    </ul>
 
-                    <h3 class="main-heading"><span>Design Skills</span></h3>
-                    <ul class="skills">
-                        <li>
-                            <h4>Mobile UI/UX</h4>
-                            <span class="rat5"></span>
-                        </li>
-                        <li>
-                            <h4>Web UI/UX</h4>
-                            <span class="rat5"></span>
-                        </li>
-                        <li>
-                            <h4>Graphic Design</h4>
-                            <span class="rat4"></span>
-                        </li>
-                        <li>
-                            <h4>Print Design</h4>
-                            <span class="rat4"></span>
-                        </li>
-                    </ul>
-                    <!-- /Skills -->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/portfolio2.jpg" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Modern Website(2)</h3>
+                            <p class="portfolio__description">
+                                This is test description(2) right now.
+                            </p>
+                            <a href="#" class="button button--flex button--small portfolio__button">
+                                Demo
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/portfolio3.jpg" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Modern Website(3)</h3>
+                            <p class="portfolio__description">
+                                This is test description(3) right now.
+                            </p>
+                            <a href="#" class="button button--flex button--small portfolio__button">
+                                Demo
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="swiper-button-next">
+                    <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>-->
+
+        <!--==================== CONTACT ME ====================-->
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Contact</h2>
+            <span class="section__subtitle"></span>
+
+            <div class="contact__container container grid">
+                <div>
+                    <div class="contact__information">
+                        <i class="uil uil-phone contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Phone</h3>
+                            <span class="contact__subtitle"><a href="tel:+40729906065" title="Call me">+40 729 906 065</a></span>
+                        </div>
+                    </div>
+
+                    <div class="contact__information">
+                        <i class="uil uil-envelope contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">E-mail</h3>
+                            <span class="contact__subtitle"><a target="_top" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#104;&#101;&#108;&#108;&#111;&#64;&#105;&#111;&#110;&#117;&#116;&#100;&#97;&#110;&#105;&#108;&#97;&#46;&#99;&#111;&#109;" title="E-mail me">&#104;&#101;&#108;&#108;&#111;&#64;&#105;&#111;&#110;&#117;&#116;&#100;&#97;&#110;&#105;&#108;&#97;&#46;&#99;&#111;&#109;</a></span>
+                        </div>
+                    </div>
+
+                    <div class="contact__information">
+                        <i class="uil uil-map-marker contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Location</h3>
+                            <span class="contact__subtitle"><a target="_blank" href="https://www.google.com/search?q=google+maps+iasi%2C+romania&oq=google+maps+iasi%2C+romania&ie=UTF-8#" title="Iași, Romania">Iași, Romania</a></span>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <!-- /Resume -->
-            <!-- Portfolio -->
-            <div id="portfolio" style="display:none">
-                <ul id="portfolio-filter">
-                    <li><a href="#" class="current portfolio-filter-type" data-filter="*">All</a></li>
-                    <li><a href="#" class="portfolio-filter-type" data-filter=".mobile">Mobile Application</a></li>
-                    <li><a href="#" class="portfolio-filter-type" data-filter=".webdesign">Web Design</a></li>
-                    <li><a href="#" class="portfolio-filter-type" data-filter=".webapp">Web Application</a></li>
-                    <li><a href="#" class="portfolio-filter-type" data-filter=".desktop">Desktop Application</a></li>
-                    <li><a href="#" class="portfolio-filter-type" data-filter=".architecture">Software Architecture</a></li>
-                </ul>
-                <div class="extra-text">Some of the projects I've worked on</div>
 
-                <ul id="portfolio-list">
-                    <li class="mobile webapp architecture">
-                        <a href="https://www.slideshare.net/slideshow/embed_code/36548692?rel=0&amp;iframe=true&amp;width=600&amp;height=450" rel="prettyPhoto[portfolio]" title="Smart Appliances Home Server (Software Architecture)">
-                            <img src="portfolio/home-server-thumb.jpg" class="lazyload" alt="Appliances Home Server Thumbnail">
-                            <h2 class="title">Appliances Home Server</h2>
-                            <span class="categorie">Software Architecture</span>
-                        </a>
-                    </li>
-                    <li class="mobile">
-                        <a href="https://www.youtube.com/embed/wygXE6hQ07c?iframe=true&amp;width=680&amp;height=380" rel="prettyPhoto[portfolio]" title="ubiGuide for Windows Phone 8">
-                            <img src="portfolio/ubiguide-thumb.jpg" class="lazyload" alt="ubiGuide Thumbnail">
-                            <h2 class="title">ubiGuide</h2>
-                            <span class="categorie">Mobile Application (Windows Phone)</span>
-                        </a>
-                    </li>
-                    <li class="mobile">
-                        <a href="https://www.youtube.com/embed/kw63JZ7HsSM?iframe=true&amp;width=680&amp;height=380" rel="prettyPhoto[portfolio]" title="Twet: Windows Phone 8 Social Mash-up">
-                            <img src="portfolio/twet-thumb.jpg" class="lazyload" alt="Twet Thumbnail">
-                            <h2 class="title">Twet</h2>
-                            <span class="categorie">Mobile Application (Windows Phone)</span>
-                        </a>
-                    </li>
-                    <li class="mobile">
-                        <a href="https://vimeo.com/45560019?width=680&amp;height=380" rel="prettyPhoto[portfolio]" title="Iris: Multilingual Resources Recommendation System">
-                            <img src="portfolio/iris-thumb.jpg" class="lazyload" alt="Iris Thumbnail">
-                            <h2 class="title">Iris: Personal Assistant</h2>
-                            <span class="categorie">Mobile Application (Windows Phone)</span>
-                        </a>
-                    </li>
-                    <li class="webapp webdesign">
-                        <a href="https://vimeo.com/35849583?width=600&amp;height=450" rel="prettyPhoto[portfolio]" title="iFilm Chrome Extension">
-                            <img src="portfolio/ifilm-thumb.jpg" class="lazyload" alt="iFilm Thumbnail">
-                            <h2 class="title">iFilm Chrome Extension</h2>
-                            <span class="categorie">Web Design/Web Application</span>
-                        </a>
-                    </li>
-                    <li class="webapp webdesign">
-                        <a href="https://vimeo.com/25350518?width=680&amp;height=380" rel="prettyPhoto[portfolio]" title="TicTacTough Project">
-                            <img src="portfolio/tictactough-thumb.jpg" class="lazyload" alt="iFilm Thumbnail Thumbnail">
-                            <h2 class="title">TicTacTough Project</h2>
-                            <span class="categorie">Web Design/Web Application</span>
-                        </a>
-                    </li>
-                    <li class="webapp">
-                        <a href="portfolio/asiiWebsite.jpg" rel="prettyPhoto[portfolio]" title="ASII Website Implementation">
-                            <img src="portfolio/asiiWebsite-thumb.jpg" class="lazyload" alt="ASII Website Thumbnail">
-                            <h2 class="title">ASII Website</h2>
-                            <span class="categorie">Web Application</span>
-                        </a>
-                    </li>
-                    <li class="desktop">
-                        <a href="https://vimeo.com/40738847?width=680&amp;height=380" rel="prettyPhoto[portfolio]" title="TopMovie Project">
-                            <img src="portfolio/topmovie-thumb.jpg" class="lazyload" alt="TopMovie Thumbnail">
-                            <h2 class="title">TopMovie Project</h2>
-                            <span class="categorie">Desktop Application</span>
-                        </a>
-                    </li>
-                    <li class="webdesign webapp">
-                        <a href="portfolio/f11Site.jpg" rel="prettyPhoto[portfolio]" title="F11 Competition Website">
-                            <img src="portfolio/f11Site-thumb.jpg" class="lazyload" alt="F11 Competition Website Thumbnail">
-                            <h2 class="title">F11 Competition Website</h2>
-                            <span class="categorie">Web Design/Web Application</span>
-                        </a>
-                    </li>
-                </ul>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <h1 class="footer__title">Ionuț</h1>
+                    <span class="footer__subtitle">Senior Software Engineer</span>
+                </div>
+
+                <div class="footer__socials">
+                    <a href="https://twitter.com/#!/ionutdanila" target="_blank" class="footer__social">
+                        <i class="uil uil-twitter"></i>
+                    </a>
+
+                    <a href="skype:ionut.danila.skype?call" target="_blank" class="footer__social">
+                        <i class="uil uil-skype"></i>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/ionutdanila" target="_blank" class="footer__social">
+                        <i class="uil uil-linkedin-alt"></i>
+                    </a>
+
+                    <a href="https://stackoverflow.com/users/1344308/ionu%c8%9b-d%c4%83nil%c4%83" target="_blank" class="footer__social">
+                        <i class="fa fa-stack-overflow" ></i>
+                    </a>
+
+                    <a href="https://github.com/ionutdanila" target="_blank" class="footer__social">
+                        <i class="uil uil-github-alt"></i>
+                    </a>
+                </div>
             </div>
-            <!-- /Portfolio -->
+            
         </div>
-        <!-- /Content -->
-        <!-- Footer -->
-        <div class="footer">
-            <div class="copyright"></div>
-            <div class="last-update">Updated: March 28th, 2022</div>
-        </div>
-        <!-- /Footer -->
-    </div>
 
-    <link rel="stylesheet" type="text/css" href="css/prettyPhoto.css" media="screen" title="prettyPhoto main stylesheet" />
+    </footer>
 
-    <script src="js/jquery.min.js"></script>
-    <script src="js/jquery-ui.min.js"></script>
-    <script src="js/jquery.easytabs.min.js"></script>
-    <script src="js/jquery.adipoli.min.js"></script>
-    <script src="js/jquery.fancybox-1.3.4.pack.js"></script>
-    <script src="js/jquery.isotope.min.js"></script>
-    <script src="js/jquery.prettyPhoto.js" charset="utf-8"></script>
-    <script src="js/custom.min.js"></script>
-	<script src="js/lazysizes.min.js" async></script>
+    <!--==================== SCROLL TOP ====================-->
+    <a href="" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scroll__icon"></i>
+    </a>
+
+    <!--==================== SWIPER JS ====================-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--==================== MAIN JS ====================-->
+    <script src="assets/js/main.js"></script>
 </body>
 </html>
