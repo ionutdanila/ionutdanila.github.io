@@ -3,7 +3,6 @@
 /*-------------------------------------------------------*/
 body {
     background-color: #D7DBE4;
-    /*background-color: #B6B9C0;*/
     margin: 0px;
     padding: 0px;
     font-family: Arial;
@@ -22,8 +21,6 @@ body {
 
 #content {
     background-color: #FFF;
-    -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
-    -moz-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
 }
 /*-------------------------------------------------------*/
@@ -169,56 +166,49 @@ div.top {
     float: left;
     width: 30px;
     height: 30px;
-    background: #222 url('../images/social_facebook.png') no-repeat 5px 5px;
+    background: #222 url('../images/icon_facebook.png') no-repeat 5px 5px;
 }
 
 .social-twitter {
     float: left;
     width: 30px;
     height: 30px;
-    background: #222 url('../images/social_twitter.png') no-repeat 5px 5px;
+    background: #222 url('../images/icon_twitter.png') no-repeat 5px 5px;
 }
 
 .social-googleplus {
     float: left;
     width: 30px;
     height: 30px;
-    background: #222 url('../images/social_googleplus.png') no-repeat 7px 8px;
+    background: #222 url('../images/icon_googleplus.png') no-repeat 7px 8px;
 }
 
 .social-github {
     float: left;
     width: 30px;
     height: 30px;
-    background: #222 url('../images/social_github.png') no-repeat 7px 8px;
+    background: #222 url('../images/icon_github.png') no-repeat 7px 8px;
 }
 
 .social-skype {
     float: left;
     width: 30px;
     height: 30px;
-    background: #222 url('../images/social_skype.png') no-repeat 3px 3px;
+    background: #222 url('../images/icon_skype.png') no-repeat 3px 3px;
 }
 
 .social-linkedin {
     float: left;
     width: 30px;
     height: 30px;
-    background: #222 url('../images/social_linkedin.png') no-repeat 5px 5px;
+    background: #222 url('../images/icon_linkedin.png') no-repeat 5px 5px;
 }
 
 .social-stackoverflow {
     float: left;
     width: 30px;
     height: 30px;
-    background: #222 url('../images/social_stackoverflow.png') no-repeat 5px 5px;
-}
-
-.social-yahoo {
-    float: left;
-    width: 30px;
-    height: 30px;
-    background: #222 url('../images/social_yahoo.png') no-repeat 3px 3px;
+    background: #222 url('../images/icon_stackoverflow.png') no-repeat 5px 5px;
 }
 
 .notext {
@@ -294,9 +284,6 @@ div.top {
 #profile {
     overflow: hidden;
     background-image: linear-gradient(right bottom, #0B3172 0%, #175B8B 76%, #0D3472 35%);
-    background-image: -o-linear-gradient(right bottom, #0B3172 0%, #175B8B 76%, #0D3472 35%);
-    background-image: -webkit-linear-gradient(right bottom, #0B3172 0%, #175B8B 76%, #0D3472 35%);
-    background-image: -webkit-gradient(linear, right bottom,left top,color-stop(0, #0B3172),color-stop(0.76, #175B8B),color-stop(0.35, #0D3472));
     background-color: #0b3172;
 }
 /* About */
@@ -708,8 +695,6 @@ div.top {
         padding: 6px;
         margin-bottom: 5px;
         border-radius: 3px;
-        -moz-border-radius: 3px;
-        -webkit-border-radius: 3px;
     }
 
         #portfolio-filter li a:hover {
@@ -867,8 +852,6 @@ div.top {
         padding: 8px;
         border: none;
         border-radius: 3px;
-        -moz-border-radius: 3px;
-        -webkit-border-radius: 3px;
         cursor: pointer;
         font-size: 13px;
         margin-left: 30px;
@@ -884,8 +867,6 @@ div.top {
         border: 1px solid #CCC;
         color: #999;
         border-radius: 3px;
-        -moz-border-radius: 3px;
-        -webkit-border-radius: 3px;
         font-size: 13px;
     }
 
@@ -895,12 +876,7 @@ div.top {
     }
 
 .success, .error {
-    -moz-border-radius: 3px;
-    -webkit-border-radius: 3px;
     border-radius: 3px;
-    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.5),inset 0 0 1px rgba(0,0,0,.2);
-    -ms-box-shadow: 0 1px 2px rgba(0,0,0,.5),inset 0 0 1px rgba(0,0,0,.2);
-    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .5),inset 0 0 1px rgba(0, 0, 0, .2);
     box-shadow: 0 1px 2px rgba(0, 0, 0, .5),inset 0 0 1px rgba(0, 0, 0, .2);
     border: 0;
     color: white;
@@ -913,12 +889,6 @@ div.top {
 
 .success {
     background-color: #4D7730;
-    filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#74a446,EndColorStr=#4d7730);
-    background-image: -moz-linear-gradient(top, #74A446 0, #4D7730 45px);
-    background-image: -ms-linear-gradient(top, #74A446 0, #4D7730 45px);
-    background-image: -o-linear-gradient(top,#74A446 0, #4D7730 45px);
-    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0,#74A446),color-stop(45px, #4D7730));
-    background-image: -webkit-linear-gradient(top,#74A446 0,#4D7730 45px);
     background-image: linear-gradient(to bottom,#74A446 0,#4D7730 45px);
 }
 
@@ -1005,20 +975,14 @@ div.footer {
 }
 
 .isotope, .isotope .isotope-item { /* change duration value to whatever you like */
-    -webkit-transition-duration: 0.8s;
-    -moz-transition-duration: 0.8s;
     transition-duration: 0.8s;
 }
 
 .isotope {
-    -webkit-transition-property: height, width;
-    -moz-transition-property: height, width;
     transition-property: height, width;
 }
 
     .isotope .isotope-item {
-        -webkit-transition-property: -webkit-transform, opacity;
-        -moz-transition-property: -moz-transform, opacity;
         transition-property: transform, opacity;
     }
 
@@ -1280,8 +1244,7 @@ div.footer {
     }
 
     .socialicons {
-        display: none;
-        !important;
+        display: none !important;
     }
     /*-------------------------------------------------------*/
     /* Profile Section */
