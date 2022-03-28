@@ -8,7 +8,7 @@
 	var $logo 	= $('#logo');
 		
 	// Show logo 
-	$('.tab-resume,.tab-portfolio,.tab-contact').click(function() {
+	$('.tab-resume,.tab-portfolio').click(function() {
 	  $logo.fadeIn('slow');
 	});
 	// Hide logo

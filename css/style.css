@@ -1199,13 +1199,6 @@ div.footer {
         #portfolio-list li {
             margin-right: 40px;
         }
-    /*-------------------------------------------------------*/
-    /* Contact */
-    /*-------------------------------------------------------*/
-    .contact-form {
-        margin: 20px 0px !important;
-        width: 420px;
-    }
 }
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {
@@ -1384,35 +1377,6 @@ div.footer {
         #portfolio-list li {
             margin-left: 40px;
         }
-    /*-------------------------------------------------------*/
-    /* Contact */
-    /*-------------------------------------------------------*/
-    #map {
-        display: none;
-    }
-
-    .contact-form {
-        padding: 20px 0 0;
-        width: 280px;
-    }
-
-    .contact-info {
-        padding: 0 10px;
-        margin-left: -12px;
-    }
-
-        .contact-info ul {
-            border-left: none;
-        }
-
-    #contactform .textarea {
-        width: 230px;
-        max-width: 230px;
-    }
-
-    #contactform .input {
-        width: 230px;
-    }
 
     div.footer .last-update {
         display: none;
