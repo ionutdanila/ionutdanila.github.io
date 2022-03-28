@@ -585,6 +585,10 @@ img{
     column-gap: 1.5rem;
 }
 
+.qualification__data:nth-child(odd){
+    text-align: right;
+}
+
 .qualification__title{
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
@@ -965,6 +969,11 @@ img{
 /*==================== MEDIA QUERIES ====================*/
 /* For small devices */
 @media screen and (max-width: 350px){
+    html{
+        width: 350px;
+        overflow: auto;
+    }
+
     .container{
         margin-left: var(--mb-1);
         margin-right: var(--mb-1);
@@ -1022,6 +1031,10 @@ img{
         justify-self: center;
     }
 
+    .contact__container{
+        grid-template-columns: 0.38fr 0.39fr 0.29fr;
+    }
+
     .about__container,
     .portfolio__content,
     .project__container,
@@ -1031,7 +1044,6 @@ img{
 
     .qualification__sections{
         display: grid;
-        grid-template-columns: .6fr;
         justify-content: center;
     }
 
@@ -1170,7 +1182,7 @@ img{
     }
 
     .footer__container{
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 0.48fr);
     }
     .footer__bg{
         padding: 3rem 0 3.5rem;
