@@ -503,44 +503,24 @@ img{
     background-color: var(--first-color);
 }
 
-.skills__csharp{
+.skills__90{
     width: 90%;
 }
 
-.skills__xaml{
+.skills__80{
     width: 80%;
 }
 
-.skills__javascript{
-    width: 60%;
-}
-
-.skills__typescript{
+.skills__70{
     width: 70%;
 }
 
-.skills__cplusplus{
+.skills__60{
     width: 60%;
 }
 
-.skills__net_core{
-    width: 80%;
-}
-
-.skills__net_framework{
-    width: 80%;
-}
-
-.skills__uwp{
-    width: 70%;
-}
-
-.skills__asp_net_core{
-    width: 60%;
-}
-
-.skills__ef_core{
-    width: 70%;
+.skills__50{
+    width: 50%;
 }
 
 .skills__close .skills__list{
