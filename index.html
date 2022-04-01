@@ -26,15 +26,16 @@
     <link rel="author" href="https://www.linkedin.com/in/ionutdanila" />
 
     <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" as="style" onload="this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></noscript>
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" /></noscript>
 
     <link rel="preload" href="assets/css/swiper-bundle.min.css" as="style" onload="this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="assets/css/swiper-bundle.min.css"></noscript>
+    <noscript><link rel="stylesheet" href="assets/css/swiper-bundle.min.css" /></noscript>
 
-    <link rel="preload" href="assets/css/styles.min.css" as="style" onload="this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="assets/css/styles.min.css"></noscript>
+    <link rel="stylesheet" href="assets/css/styles.min.css" />
 
-    <link rel="alternate" href="assets/js/schema-person.min.json" type="application/ld+json" />
+    <script type="application/ld+json">
+        {"@context":"http://www.schema.org","@type":"person","givenName":"Ionuț","familyName":"Dănilă","name":"Ionuț Dănilă","alternateName":"Ionut Danila","description":"Senior Software Engineer","gender":"Male","url":"https://www.ionutdanila.com","sameAs":["https://www.linkedin.com/in/ionutdanila","https://stackoverflow.com/story/ionutdanila","https://twitter.com/#!/ionutdanila","https://github.com/ionutdanila","https://www.facebook.com/ionut.danila"],"image":"assets/img/perfil.webp","address":{"@type":"PostalAddress","addressLocality":"Iași","addressCountry":"Romania"},"email":"&#104;&#101;&#108;&#108;&#111;&#64;&#105;&#111;&#110;&#117;&#116;&#100;&#97;&#110;&#105;&#108;&#97;&#46;&#99;&#111;&#109;","birthDate":"1990-05-20","alumniOf":{"@type":"EducationalOrganization","name":"Faculty of Computer Science Iași, UAIC (FII)","url":"https://www.info.uaic.ro/"},"worksFor":{"@type":"Organization","name":"Bolt","url":"https://bolt.eu/"},"jobTitle":{"@type":"DefinedTerm","inDefinedTermSet":"https://www.patkua.com/blog/the-definition-of-a-tech-lead/","termCode":"TL","name":"Technical Lead","url":"https://en.wikipedia.org/wiki/Lead_programmer"},"birthPlace":"Bucharest","nationality":"Romanian","telephone":"+40729906065"}
+    </script>
 </head>
 
 <body class="dark-theme">
@@ -109,7 +110,7 @@
                     </div>
 
                     <div class="home__data">
-                        <h1 class="home__title">Hi, I'm Ionuț,</h1>
+                        <h2 class="home__title">Hi, I'm Ionuț,</h2>
                         <h3 class="home__subtitle">Senior Software Engineer</h3>
                         <p class="home__description">Architecting, designing, developing, and deploying web and mobile applications</p>
                         <a href="#contact" class="button button--flex">
@@ -353,7 +354,7 @@
                             <i class="fa fa-code skills__icon"></i>
 
                             <div>
-                                <h1 class="skills__title">Programming Languages</h1>
+                                <h2 class="skills__title">Programming Languages</h2>
                                 <span class="skills__subtitle">Backend and Frontend</span>
                             </div>
 
@@ -440,7 +441,7 @@
                             <i class="fa fa-code skills__icon"></i>
 
                             <div>
-                                <h1 class="skills__title">Technologies</h1>
+                                <h2 class="skills__title">Technologies</h2>
                                 <span class="skills__subtitle">Frameworks and Programming Paradigms</span>
                             </div>
 
@@ -566,7 +567,7 @@
                             <i class="fa fa-code skills__icon"></i>
 
                             <div>
-                                <h1 class="skills__title">3<sup>rd</sup> Party Libraries</h1>
+                                <h2 class="skills__title">3<sup>rd</sup> Party Libraries</h2>
                                 <span class="skills__subtitle">Data Management, API Generation, Testing</span>
                             </div>
 
@@ -733,7 +734,7 @@
                         <i class="fa fa-code skills__icon"></i>
 
                         <div>
-                            <h1 class="skills__title">Tools</h1>
+                            <h2 class="skills__title">Tools</h2>
                             <span class="skills__subtitle">Design, Build, Deploy, Monitor, Investigate</span>
                         </div>
 
@@ -959,7 +960,7 @@
                         <i class="fa fa-code skills__icon"></i>
 
                         <div>
-                            <h1 class="skills__title">Design Skills</h1>
+                            <h2 class="skills__title">Design Skills</h2>
                             <span class="skills__subtitle">Great User Experience</span>
                         </div>
 
@@ -1087,7 +1088,6 @@
         <i class="fa fa-arrow-up scroll__icon"></i>
     </a>
     
-    <!--==================== MAIN JS ====================-->
     <script src="assets/js/main.min.js"></script>
 </body>
 </html>
