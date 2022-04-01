@@ -960,6 +960,10 @@ img {
         grid-template-columns:max-content 1fr 1fr
     }
 
+    .home__scroll-button {
+        margin-left: 3rem;
+    }
+
     .home__data {
         grid-column: initial
     }
