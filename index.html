@@ -31,56 +31,10 @@
     <link rel="preload" href="assets/css/swiper-bundle.min.css" as="style" onload="this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="assets/css/swiper-bundle.min.css"></noscript>
 
-    <link rel="stylesheet" href="assets/css/styles.min.css">
+    <link rel="preload" href="assets/css/styles.min.css" as="style" onload="this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="assets/css/styles.min.css"></noscript>
 
-    <script type='application/ld+json'>
-        {
-          "@context": "http://www.schema.org",
-          "@type": "person",
-          "givenName": "Ionuț",
-          "familyName": " Dănilă",
-          "name": "Ionuț Dănilă",
-          "alternateName": "Ionut Danila",
-          "description": "Senior Software Engineer",
-          "gender": "Male",
-          "url": "https://www.ionutdanila.com",
-          "sameAs": [
-             "https://www.linkedin.com/in/ionutdanila",
-             "https://stackoverflow.com/story/ionutdanila",
-             "https://twitter.com/#!/ionutdanila",
-             "https://github.com/ionutdanila",
-             "https://www.facebook.com/ionut.danila"
-          ],
-          "image": "assets/img/perfil.webp",
-          "address": {
-             "@type": "PostalAddress",
-             "addressLocality": "Iași",
-             "addressCountry": "Romania"
-          },
-          "email": "&#104;&#101;&#108;&#108;&#111;&#64;&#105;&#111;&#110;&#117;&#116;&#100;&#97;&#110;&#105;&#108;&#97;&#46;&#99;&#111;&#109;",
-          "birthDate": "1990-05-20",
-          "alumniOf": {
-              "@type": "EducationalOrganization",
-            "name": "Faculty of Computer Science Iași, UAIC (FII)",
-            "url": "https://www.info.uaic.ro/"
-          },
-          "worksFor": {
-              "@type": "Organization",
-            "name": "Bolt",
-            "url": "https://bolt.eu/"
-          },
-          "jobTitle": {
-              "@type": "DefinedTerm",
-              "inDefinedTermSet": "https://www.patkua.com/blog/the-definition-of-a-tech-lead/",
-              "termCode": "TL",
-              "name": "Technical Lead",
-              "url": "https://en.wikipedia.org/wiki/Lead_programmer"
-          },
-          "birthPlace": "Bucharest",
-          "nationality": "Romanian",
-          "telephone": "+40729906065"
-        }
-    </script>
+    <link rel="alternate" href="assets/js/schema-person.min.json" type="application/ld+json" />
 </head>
 
 <body class="dark-theme">
@@ -144,12 +98,12 @@
 
                     <div class="home__img">
                         <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                            <mask id="mask0" mask-type="alpha">
+                            <mask id="mask0">
                                 <path d="M190.312 36.488c16.27 25.631 10.997 66.338-7.984 97.698s-51.521 53.373-82.102 52.167c-30.581-1.056-59.203-25.33-78.486-56.991C2.458 97.851-7.485 59.103 6.676 34.528 20.987 10.103 59.703-.149 97.967.002c38.263.302 76.226 10.855 92.345 36.486z" />
                             </mask>
                             <g mask="url(#mask0)">
                                 <path d="M190.312 36.488c16.27 25.631 10.997 66.338-7.984 97.698s-51.521 53.373-82.102 52.167c-30.581-1.056-59.203-25.33-78.486-56.991C2.458 97.851-7.485 59.103 6.676 34.528 20.987 10.103 59.703-.149 97.967.002c38.263.302 76.226 10.855 92.345 36.486z" />
-                                <image loading="eager" class="home__blob-img" x="16" y="16" xlink:href="assets/img/perfil.webp"/>
+                                <image class="home__blob-img" height="170" width="170" x="16" y="16" xlink:href="assets/img/perfil.webp"/>
                             </g>
                         </svg>
                     </div>
@@ -623,7 +577,7 @@
                             <div class="skills__data">
                                 <div class="skills__titles">
                                     <h3 class="skills__name">Json.NET</h3>
-                                    <div class="skills__number"><sup></sup>9</sup>/<sub>10</sub></div>
+                                    <div class="skills__number"><sup>9</sup>/<sub>10</sub></div>
                                 </div>
                                 <div class="skills__bar">
                                     <div class="skills__percentage skills__90"></div>
