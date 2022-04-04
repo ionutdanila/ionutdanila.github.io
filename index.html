@@ -20,7 +20,10 @@
 
     <title>Ionuț Dănilă | Personal Portfolio</title>
 
-    <link rel="stylesheet" href="assets/css/styles.min.css" />
+    <!-- <link rel="stylesheet" href="assets/css/styles.css" /> -->
+
+    <link rel="preload" href="assets/css/styles.min.css" as="style" onload="this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="assets/css/styles.min.css" /></noscript>
 
     <link rel="shortcut icon" href="assets/img/perfil_icon.webp">
     <link rel="icon" href="assets/img/perfil_icon.webp" type="image/ico">
@@ -78,7 +81,7 @@
         <!--==================== HOME ====================-->
         <section class="home section" id="home">
             <div class="home__container container grid">
-                <div class="home__content grid">
+                <div class="home__content grid" style="padding-top: 5.5rem;">
                     <div class="home__social">
                         <a href="https://www.linkedin.com/in/ionutdanila" target="_blank" class="home__social-icon">
                             <i class="fa fa-linkedin"></i>

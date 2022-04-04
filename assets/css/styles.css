@@ -299,7 +299,7 @@ img {
 
 .home__content {
     grid-template-columns: .5fr 3fr;
-    padding-top: 3.5rem;
+    padding-top: 3.5rem !important;
     align-items: center
 }
 
@@ -995,7 +995,7 @@ img {
     }
 
     .home__content {
-        padding-top: 5.5rem;
+        padding-top: 5.5rem !important;
         column-gap: 2rem
     }
 
