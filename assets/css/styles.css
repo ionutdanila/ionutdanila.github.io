@@ -868,7 +868,6 @@ img {
 .scrollup {
     position: fixed;
     right: 1rem;
-    bottom: 5rem;
     background-color: var(--first-color);
     opacity: .8;
     padding: 0 .3rem;
