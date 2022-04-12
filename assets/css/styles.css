@@ -388,7 +388,6 @@ img {
 .button__icon {
     font-size: 1.25rem;
     margin-left: var(--mb-0-5);
-    transition: background-color 0.3s ease;
     padding: 0.3rem 0;
 }
 
